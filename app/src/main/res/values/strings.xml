@@ -3,6 +3,10 @@
 
     <string name="app_name">BikeCommunity</string>
     <string name="hello_world">Hello world!</string>
+    <string name="passedmessage">Suretigai!!</string>
+    <string name="matchingmessage">Matching!!</string>
     <string name="action_settings">Settings</string>
+    <string name="title_activity_passed">passedActivity</string>
+    <string name="title_activity_matching">matchingActivity</string>
 
 </resources>

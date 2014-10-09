@@ -16,6 +16,14 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <activity
+            android:name=".passedActivity"
+            android:label="@string/title_activity_passed" >
+        </activity>
+        <activity
+            android:name=".matchingActivity"
+            android:label="@string/title_activity_matching" >
+        </activity>
     </application>
 
 </manifest>

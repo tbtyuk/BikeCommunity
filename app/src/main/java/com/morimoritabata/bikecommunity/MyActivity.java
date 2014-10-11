@@ -44,7 +44,7 @@ public class MyActivity extends Activity {
 
         }
         public void onTabSelected(Tab tab,FragmentTransaction ft){
-//          ft.add(R.id.mytabactivity,fragment);
+          ft.add(R.id.mytabactivity,fragment);
         }
         public void onTabUnselected(Tab tab,FragmentTransaction ft){
             ft.remove(fragment);

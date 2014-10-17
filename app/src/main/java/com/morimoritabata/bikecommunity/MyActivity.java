@@ -9,10 +9,14 @@ import android.app.ActionBar.Tab;
 import android.app.Activity;
 import android.app.Fragment;
 import android.app.FragmentTransaction;
+import android.net.Uri;
 
 
-public class MyActivity extends Activity {
+public class MyActivity extends Activity implements matchingFragment.OnFragmentInteractionListener,passedFragment.OnFragmentInteractionListener  {
+    @Override
+    public void onFragmentInteraction(Uri uri) {
 
+    }
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -70,4 +74,5 @@ public class MyActivity extends Activity {
         }
         return super.onOptionsItemSelected(item);
     }
+
 }

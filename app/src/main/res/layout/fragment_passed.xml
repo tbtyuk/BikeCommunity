@@ -27,7 +27,8 @@
             android:textAppearance="?android:attr/textAppearanceMedium"
             android:text="アイコン"
             android:id="@+id/theme1"
-            android:layout_column="0" />
+            android:layout_column="0"
+            android:layout_margin="5dp"/>
 
         <TextView
             android:layout_width="wrap_content"
@@ -35,22 +36,25 @@
             android:textAppearance="?android:attr/textAppearanceMedium"
             android:text="ネーム"
             android:id="@+id/theme2"
-            android:layout_column="1" />
+            android:layout_column="1"
+            android:layout_margin="5dp"/>
 
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:textAppearance="?android:attr/textAppearanceMedium"
-            android:text="日付・時間"
+            android:text="時間"
             android:id="@+id/theme3"
-            android:layout_column="2" />
+            android:layout_column="2"
+            android:layout_margin="5dp"/>
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:textAppearance="?android:attr/textAppearanceMedium"
             android:text="回数"
             android:id="@+id/theme4"
-            android:layout_column="3" />
+            android:layout_column="3"
+            android:layout_margin="5dp"/>
     </TableRow>
 
     <TableRow

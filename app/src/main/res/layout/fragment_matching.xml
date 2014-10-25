@@ -43,7 +43,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:textAppearance="?android:attr/textAppearanceMedium"
-        android:text="日付・時間"
+        android:text="地域"
         android:id="@+id/theme3"
         android:layout_column="2"
         android:layout_margin="5dp"/>
@@ -51,7 +51,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:textAppearance="?android:attr/textAppearanceMedium"
-            android:text="回数"
+            android:text="好きなメーカー"
             android:id="@+id/theme4"
             android:layout_column="3"
             android:layout_margin="5dp"/>
@@ -71,19 +71,19 @@
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="New Text"
+            android:text="もんすと"
             android:id="@+id/name1"
             android:layout_column="1" />
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="New Text"
+            android:text="渋谷区"
             android:id="@+id/time1"
             android:layout_column="2" />
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="New Text"
+            android:text="ホンダ"
             android:id="@+id/count1"
             android:layout_column="3" />
     </TableRow>

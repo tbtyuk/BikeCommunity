@@ -71,19 +71,19 @@
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="New Text"
+            android:text="ストライク"
             android:id="@+id/name1"
             android:layout_column="1" />
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="New Text"
+            android:text="14:30"
             android:id="@+id/time1"
             android:layout_column="2" />
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="New Text"
+            android:text="3"
             android:id="@+id/count1"
             android:layout_column="3" />
     </TableRow>
@@ -102,19 +102,19 @@
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="New Text"
+            android:text="テキーラ"
             android:id="@+id/name2"
             android:layout_column="1" />
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="New Text"
+            android:text="17:40"
             android:id="@+id/time2"
             android:layout_column="2" />
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="New Text"
+            android:text="1"
             android:id="@+id/count2"
             android:layout_column="3" />
     </TableRow>
@@ -133,19 +133,19 @@
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="New Text"
+            android:text="坂本龍馬"
             android:id="@+id/name3"
             android:layout_column="1" />
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="New Text"
+            android:text="1日前"
             android:id="@+id/time3"
             android:layout_column="2" />
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="New Text"
+            android:text="1"
             android:id="@+id/count3"
             android:layout_column="3" />
     </TableRow>
@@ -164,19 +164,19 @@
         <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-            android:text="New Text"
+            android:text="ティーガーⅠ"
             android:id="@+id/name4"
             android:layout_column="1" />
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="New Text"
+            android:text="1日前"
             android:id="@+id/time4"
             android:layout_column="2" />
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="New Text"
+            android:text="2"
             android:id="@+id/count4"
             android:layout_column="3" />
     </TableRow>
@@ -195,19 +195,19 @@
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="New Text"
+            android:text="スラッシュ"
             android:id="@+id/name5"
             android:layout_column="1" />
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="New Text"
+            android:text="3日前"
             android:id="@+id/time5"
             android:layout_column="2" />
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="New Text"
+            android:text="1"
             android:id="@+id/count5"
             android:layout_column="3" />
     </TableRow>

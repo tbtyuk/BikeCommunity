@@ -32,5 +32,10 @@ public class NewProfileEditActivity extends Activity {
             return true;
         }
         return super.onOptionsItemSelected(item);
+
+    }
+
+    private void sendNewProfile(){
+
     }
 }

@@ -212,4 +212,13 @@
             android:layout_column="3" />
     </TableRow>
 
+<<<<<<< HEAD
+    <FrameLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_gravity="left|center_vertical"></FrameLayout>
+
+</FrameLayout>
+=======
 </TableLayout>
+>>>>>>> c2ca1d8e448aed7ac7a97c0db87516a275ae9dc0

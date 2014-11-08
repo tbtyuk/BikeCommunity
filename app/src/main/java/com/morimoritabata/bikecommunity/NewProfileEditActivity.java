@@ -33,6 +33,9 @@ public class NewProfileEditActivity extends Activity {
         }
         return super.onOptionsItemSelected(item);
 
-        //pull test
+    }
+
+    private void sendNewProfile(){
+
     }
 }

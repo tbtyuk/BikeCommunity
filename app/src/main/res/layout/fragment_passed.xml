@@ -1,25 +1,224 @@
-<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:tools="http://schemas.android.com/tools"
+<TableLayout
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context="com.morimoritabata.bikecommunity.passedFragment">
-
-    <!-- TODO: Update blank fragment layout -->
-    <TextView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:stretchColumns="1,2,3">
+    <TableRow
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:text="@string/passedmessage" />
+        android:background="#FF3399">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="マッチングリスト"
+            android:id="@+id/title1"
+            android:layout_column="0"
+            android:layout_span="4"/>
 
-    <Button
+    </TableRow>
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="アイコン"
+            android:id="@+id/theme1"
+            android:layout_column="0"
+            android:layout_margin="5dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="ネーム"
+            android:id="@+id/theme2"
+            android:layout_column="1"
+            android:layout_margin="5dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="時間"
+            android:id="@+id/theme3"
+            android:layout_column="2"
+            android:layout_margin="5dp"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="回数"
+            android:id="@+id/theme4"
+            android:layout_column="3"
+            android:layout_margin="5dp"/>
+    </TableRow>
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <!--画像は/res/drawable-hdpi/ic_launcherを仮に使ってます -->
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/icon1"
+            android:layout_column="0"
+            android:src="@drawable/ic_launcher"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="ストライク"
+            android:id="@+id/name1"
+            android:layout_column="1" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="14:30"
+            android:id="@+id/time1"
+            android:layout_column="2" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="3"
+            android:id="@+id/count1"
+            android:layout_column="3" />
+    </TableRow>
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <!--画像は/res/drawable-hdpi/ic_launcherを仮に使ってます -->
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/icon2"
+            android:layout_column="0"
+            android:src="@drawable/ic_launcher"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="テキーラ"
+            android:id="@+id/name2"
+            android:layout_column="1" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="17:40"
+            android:id="@+id/time2"
+            android:layout_column="2" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="1"
+            android:id="@+id/count2"
+            android:layout_column="3" />
+    </TableRow>
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <!--画像は/res/drawable-hdpi/ic_launcherを仮に使ってます -->
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/icon3"
+            android:layout_column="0"
+            android:src="@drawable/ic_launcher"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="坂本龍馬"
+            android:id="@+id/name3"
+            android:layout_column="1" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="1日前"
+            android:id="@+id/time3"
+            android:layout_column="2" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="1"
+            android:id="@+id/count3"
+            android:layout_column="3" />
+    </TableRow>
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <!--画像は/res/drawable-hdpi/ic_launcherを仮に使ってます -->
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/icon4"
+            android:layout_column="0"
+            android:src="@drawable/ic_launcher"/>
+        <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="New Button"
-        android:id="@+id/button"
-        android:layout_gravity="center" />
+            android:text="ティーガーⅠ"
+            android:id="@+id/name4"
+            android:layout_column="1" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="1日前"
+            android:id="@+id/time4"
+            android:layout_column="2" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="2"
+            android:id="@+id/count4"
+            android:layout_column="3" />
+    </TableRow>
 
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <!--画像は/res/drawable-hdpi/ic_launcherを仮に使ってます -->
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/icon5"
+            android:layout_column="0"
+            android:src="@drawable/ic_launcher"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="スラッシュ"
+            android:id="@+id/name5"
+            android:layout_column="1" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="3日前"
+            android:id="@+id/time5"
+            android:layout_column="2" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="1"
+            android:id="@+id/count5"
+            android:layout_column="3" />
+    </TableRow>
+
+<<<<<<< HEAD
     <FrameLayout
         android:layout_width="fill_parent"
         android:layout_height="fill_parent"
         android:layout_gravity="left|center_vertical"></FrameLayout>
 
 </FrameLayout>
+=======
+</TableLayout>
+>>>>>>> c2ca1d8e448aed7ac7a97c0db87516a275ae9dc0

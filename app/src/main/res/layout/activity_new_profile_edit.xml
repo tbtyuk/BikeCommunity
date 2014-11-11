@@ -21,6 +21,6 @@
         android:id="@+id/editText2"
         android:inputType="text"
         android:layout_below="@+id/textView2"
-        android:text="秋山"></EditText>
+        ></EditText>
 
 </RelativeLayout>

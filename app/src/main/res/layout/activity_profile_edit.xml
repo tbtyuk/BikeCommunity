@@ -24,7 +24,7 @@
         android:layout_below="@+id/textView2"></EditText>
 
     <TextView
-        android:text="氏名"
+        android:text="所有バイク 1"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:id="@+id/textView"
@@ -32,68 +32,115 @@
         android:layout_alignParentLeft="true"
         android:layout_alignParentStart="true" />
 
-    <EditText
-        android:layout_width="match_parent"
+    <Spinner
+        android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:id="@+id/editText"
-        android:inputType="text"
+        android:id="@+id/spinner"
+        android:layout_toEndOf="@+id/textView3"
+        android:spinnerMode="dialog"
+        android:layout_below="@+id/textView3"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <TextView
+        android:text="メーカー"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView3"
         android:layout_below="@+id/textView"
         android:layout_alignParentLeft="true"
         android:layout_alignParentStart="true" />
 
     <TextView
-        android:text="メールアドレス"
+        android:text="車名"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:id="@+id/textView3"
+        android:id="@+id/textView4"
+        android:layout_below="@+id/spinner"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/editText"
+        android:layout_below="@+id/textView4"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignRight="@+id/spinner"
+        android:layout_alignEnd="@+id/spinner" />
+
+    <TextView
+        android:text="所有バイク 2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView5"
         android:layout_below="@+id/editText"
         android:layout_alignParentLeft="true"
         android:layout_alignParentStart="true" />
 
-    <EditText
-        android:layout_width="match_parent"
+    <Spinner
+        android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:id="@+id/editText3"
-        android:inputType="text"
-        android:layout_alignParentStart="true"
-        android:layout_below="@+id/textView3"
-        android:layout_alignParentLeft="true" />
+        android:id="@+id/spinner2"
+        android:layout_toEndOf="@+id/textView3"
+        android:spinnerMode="dialog"
+        android:layout_below="@+id/textView6"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
 
     <TextView
-        android:text="メールアドレス（確認）"
+        android:text="車名"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:id="@+id/textView7"
-        android:layout_below="@+id/editText3"
-        android:layout_alignParentLeft="true"
-        android:layout_alignParentStart="true" />
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/spinner2"
+        android:layout_alignParentLeft="true" />
 
     <EditText
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:id="@+id/editText8"
-        android:inputType="text"
-        android:layout_below="@+id/textView7"
-        android:layout_alignParentLeft="true"
-        android:layout_alignParentStart="true" />
-
-    <ToggleButton
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="性別"
-        android:id="@+id/toggleButton"
-        android:layout_centerVertical="true"
-        android:layout_centerHorizontal="true"
-        android:checked="false"
-        android:textOff="男性"
-        android:textOn="女性" />
+        android:id="@+id/editText3"
+        android:layout_alignParentStart="true"
+        android:layout_alignEnd="@+id/spinner"
+        android:layout_below="@+id/textView7"
+        android:layout_alignParentLeft="true" />
 
     <TextView
-        android:text="性別"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:id="@+id/textView12"
-        android:layout_below="@+id/editText8"
+        android:text="プロフィール画像"
+        android:id="@+id/textView8"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/editText3"
+        android:layout_alignParentLeft="true" />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/imageView"
+        android:layout_alignParentStart="true"
+        android:layout_alignEnd="@+id/textView8"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/textView8"
+        android:layout_alignParentBottom="true" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="変更"
+        android:id="@+id/button"
+        android:layout_toEndOf="@+id/imageView"
+        android:layout_alignParentBottom="true"
+        android:layout_toRightOf="@+id/imageView" />
+
+    <TextView
+        android:text="メーカー"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView6"
+        android:layout_below="@+id/textView5"
         android:layout_alignParentLeft="true"
         android:layout_alignParentStart="true" />
 
